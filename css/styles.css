@@ -1,0 +1,131 @@
+/*used bootstrap4*/
+
+ body {
+    font-size: 16px;
+    font-family:oxygen;
+    color:#lalala;
+    background-color:white;
+}
+/* HEADER  */
+ 
+#header-nav {
+    background-color:gray ;
+    border-radius: 0;
+    border: 0;
+ 
+}
+#hrstyle{background-color:white;}
+
+#header-nav button {
+    margin-top: 10px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color:white;
+}
+.navbar-collapse {
+    border-top: 0;
+  border:2px solid black;
+}
+
+.navbar-brand, .navbar-nav li a {
+    line-height: 76px;
+    height: 76px;
+ }
+
+.navbar-brand h1 {
+    color:black;
+    font-family: oxygen, cursive;
+    font-weight: bolder;
+    font-size: 1.8em;
+  margin:0;
+   padding: 0;
+
+}
+ #b_utton{background-color:white;
+                 border:2px solid gray;
+               text-transform:uppercase;
+                font-family: oxygen, cursive;
+    font-weight: bold;
+        }
+
+.navbar-brand a:hover {
+    text-decoration: none;
+    text-shadow: 1px 1px 1px white;
+     background-color:white;
+}
+#nav-list {
+    background-color:beige;
+  width:100%;
+}
+#nav-list a {
+    font-weight: bolder;
+    color: black;
+    font-size: 2.0em;
+}
+#nav-list a:hover {
+    color: white;
+    background-color: gray;
+}
+.navbar-header button.navbar-toggler, .navbar-header .icon-bar {
+    border: 1px solid yellow;
+}
+/** END HEADER */
+
+
+/** HOME PAGE **/
+ 
+#main-content {
+    width: 100%;
+    margin-bottom: 40px;
+}
+#main-content h2 {
+    font-size: 2.9em;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+text-shadow: 1px 1px 1px red;
+
+}
+#main-content h3 {
+text-shadow: 1px 1px 1px white;
+    font-size: 2.0em;
+    font-weight: bold;
+    margin-bottom: 1em;
+  text-transform:uppercase;
+}
+#main-section {
+    background-color: gray;
+    box-shadow: 5px 10px ;
+    font-weight:bold;
+    padding: 30px;
+}
+  /********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 5vw; 
+  }
+   #collapsable-nav a { 
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { 
+    font-size: 1em;
+    margin-right: 5px;
+  }
+}
+/********** Super extra small devices Only (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { 
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  }
+ 
+
