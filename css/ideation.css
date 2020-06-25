@@ -1,0 +1,280 @@
+.navbar-light{
+    background-color:white;
+   
+     
+     
+}
+ body{
+    background: linear-gradient(to bottom, #99ccff 0%, #ffffff 100%);
+ }
+ 
+.navbar-light .navbar-nav .nav-link {
+     color: black;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color:brown;
+}
+ 
+  .navbar-brand{
+      box-shadow: 2px 2px black;
+  }
+  span.navbar-toggler-icon{
+      
+     background-color:lightblue;
+     border-radius: 50%;
+  }
+  span.navbar-toggler-icon:active{
+      background-color:turquoise;
+  }
+ .jumbotron{
+     
+   background-color: black;
+     color: beige;
+     padding:70px 30px 70px 30px;
+
+ }
+ .fa-sign-in,#loginBtn{
+color: black;
+ }
+ .row-header{
+    margin: 0px auto;
+    
+     
+
+}
+ 
+.content1{
+    margin-top: 20px;
+    margin-left:30px;
+     letter-spacing: 0.02em;
+    font-size:20px;
+    padding: 2px 5px;
+     font-style: normal;
+    font-weight: 450;
+    border-left: 2px solid bisque;
+}
+.row-content{
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+     
+    min-height:400px ;
+}
+.row-subcontent{
+     
+      margin-left: 20px;
+    margin-top: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+line-height: 1.8em;
+    bottom: 3px;
+    font-size: 20px;
+}
+.form-inline{
+    background-color: ;
+}
+#mainheading{
+     
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color:navy;
+}
+.quote{
+    font-style: italic;
+    color: ghostwhite;
+}
+.jbimage{
+    border-left: 2px solid white;
+     
+}
+.carousel{
+    background-color: cadetblue;
+    width: 80vw;
+    height:auto;
+    
+}
+footer{
+    background-color: black;
+}
+#carouselButton{
+    background-color:goldenrod;
+    right:0px;
+    bottom: 0px;
+    position: absolute;
+    z-index: 1;
+}
+#logiModal{
+    display: block;
+}
+.modal-header {
+    background-color:navy }
+    .modal-header .modal-title {
+      color:floralwhite }
+    .modal-header .close {
+      color: floralwhite; }
+      .modal-header .close:hover {
+        color: #d1c4e9 !important; }
+  
+  .modal-body {
+    background-color: skyblue; }
+  
+  
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border:1px solid black;
+    border-radius: 50%;
+    margin: 3px 3px;
+   
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+     
+  }
+  
+  .pagination a:hover:not(.active) {
+    background-color:greenyellow;
+ 
+    border-radius: 5px;
+  }
+  a.disabled {
+    pointer-events: none;
+    cursor: default;
+    opacity:0.4;
+  }
+
+  
+  a.breadcrumb-link:hover{
+      text-decoration: none;
+      color:rebeccapurple;
+    }
+  a.breadcrumb-link{
+      color:black;
+  }
+  .breadcrumbactive{
+      color:green;
+
+  }
+   
+  .row-head{
+      margin-top:100px;
+  }
+  .footer
+{
+    background-color:black;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+address{
+    font-size:80%;
+    margin:0px;
+    color:wheat;
+    
+}
+footer h5{
+    color: whitesmoke;
+}
+.gallery1{
+color:floralwhite;
+ background-color: black;
+font-style:helvetica;
+font-size: 50px;
+ text-transform: uppercase;
+ font-weight: bold;
+text-align: center;
+text-shadow: 2px 2px goldenrod;
+}
+.gallery-content{
+    
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+     margin-bottom: 10px;
+}
+.img-thumbnail{
+    border:0px;
+
+    border-collapse: collapse;
+}
+.row-gallery-content{
+    margin:10px 10px;
+}
+ .fa-heart {  position: absolute;
+    top: 8px;
+    right: 25px; 
+color:black;
+ }
+  
+ .fa-download {  position: absolute;
+    top: 50px;
+    right: 25px; 
+color:black;
+ }
+ .fa-share {  position: absolute;
+    top: 30px;
+    right: 25px; 
+color:black;
+ }
+  .rowcaption{
+       font-weight: bold;
+      font-style: italic;
+    text-shadow: 2px 1px white;
+  }
+  .card-header
+{
+    background-color:navy;
+}
+ 
+label{
+    text-transform: capitalize;
+    font-weight: bold;
+    color:chocolate;
+}
+.follow{
+   background-color: white;
+   padding: 5px;
+   text-align: center;
+}
+.map{
+    margin-top: 5px;
+    background-color:floralwhite;
+    text-align: center;
+    box-shadow: 2px 2px black;
+    padding: 10px;
+    
+}
+.fa-paperclip {  position: absolute;
+    top: 0px;
+    left: 15px; 
+    font-size: 30px;
+
+ }
+  
+  @media (max-width:640px)
+  { 
+      .row-content{
+         display: inline-block;
+    
+      }
+      .content1{
+          font-size: 1rem;
+          
+      }
+       .follow
+       {
+         margin-top: 20px;
+         
+       }
+       .map{
+           padding-left: 0px;
+       }
+  }
+
+
+
+  
+  
